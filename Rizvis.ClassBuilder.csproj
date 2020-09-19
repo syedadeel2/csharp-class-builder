@@ -5,8 +5,12 @@
     <Authors>Adeel Rizvi</Authors>
     <Company>Rizvi Group of Companies</Company>
     <Product />
-    <Description>Design your class with fluent api and out as string.</Description>
+    <Description>Design your class with fluent api and it will output as string.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/syedadeel2/csharp-class-builder</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>C#, Class Builder, Fluent API, Output as String, Generate Class,</PackageTags>
+    <PackageProjectUrl>https://github.com/syedadeel2/csharp-class-builder</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
