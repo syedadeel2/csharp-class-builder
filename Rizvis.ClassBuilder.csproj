@@ -4,13 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Adeel Rizvi</Authors>
     <Company>Rizvi Group of Companies</Company>
-    <Product />
-    <Description>Design your class with fluent api and it will output as string.</Description>
+    <Product>CSharp Class Builder</Product>
+    <Description>Sometime you need fluent api to design the class and output as string for Reflection or anyother purposes and you end up with lot of string lines and messy code. This library will provide you fluent api to design the class and output as string.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/syedadeel2/csharp-class-builder</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>C#, Class Builder, Fluent API, Output as String, Generate Class,</PackageTags>
+    <PackageTags>C#, Class Builder, Fluent API, Output as String, Generate Class, CSharp Class Builder</PackageTags>
     <PackageProjectUrl>https://github.com/syedadeel2/csharp-class-builder</PackageProjectUrl>
+    <PackageId>CSharp.ClassBuilder</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
