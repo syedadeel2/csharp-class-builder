@@ -106,3 +106,16 @@ Method API
 > 12. `Build()`
 
 Property API
+> 1. `CreateProperty(string name, Modifier modifier)`
+> 2. `AsReturnWithType<T>(T type)`
+> 3. `AsReturnWith(string type)`
+> 4. `AddPropertyDescription(string description)`
+> 5. `AsAbstract()`
+> 6. `AsStatic()`
+> 7. `ReadOnly()`
+> 8. `Getter()`
+> 9. `Setter()`
+> 10. `Build()`
+
+# Sample Code
+Please clone this project and run Rizvis.ClassBuilder.Tester
