@@ -123,4 +123,6 @@ Property API
 > 10. `Build()`
 
 # Sample Code
-Please clone this project and run Rizvis.ClassBuilder.Tester
+Please clone this project and run Rizvis.ClassBuilder.Tester 
+
+For online demo click here <a href="https://dotnetfiddle.net/mbqaZT">https://dotnetfiddle.net/mbqaZT</a>
