@@ -25,7 +25,7 @@ namespace Rizvis.ClassBuilder
         private readonly StringBuilder _packageSB;
 
         /// <summary>   The namespace. </summary>
-        private string _namespace = "namespace ";
+        private string _namespace = "";
 
         /// <summary>   Type of the class. </summary>
         private string _classType = "";
@@ -95,7 +95,7 @@ namespace Rizvis.ClassBuilder
 
         public IClass WithNamespace(string nameSpace)
         {
-            _namespace += $" {nameSpace}";
+            _namespace = $"namespace {nameSpace} {{";
             return this;
         }
 
@@ -212,8 +212,18 @@ namespace Rizvis.ClassBuilder
 
         public override string ToString()
         {
+            // terminate class
             _sb.AppendLine("}");
-            return _packageSB.ToString() + _sb.ToString();
+
+            if (string.IsNullOrEmpty(_namespace))
+            {
+                return _packageSB.ToString() + _sb.ToString();
+            }
+            else
+            {
+                return $"{_packageSB} {_namespace} {_sb} }}";
+            }
+
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -495,7 +505,7 @@ namespace Rizvis.ClassBuilder
         IClassProperty IClassProperty.Build() => _propertyBuilder.Build();
         #endregion
 
-       
+
     }
 }
 

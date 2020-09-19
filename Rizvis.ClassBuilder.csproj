@@ -9,4 +9,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Rizvis.ClassBuilder.Tester\**" />
+    <EmbeddedResource Remove="Rizvis.ClassBuilder.Tester\**" />
+    <None Remove="Rizvis.ClassBuilder.Tester\**" />
+  </ItemGroup>
+
 </Project>
