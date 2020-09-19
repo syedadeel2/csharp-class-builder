@@ -2,6 +2,11 @@
 # csharp-class-builder
 Sometime you need fluent api to design the class and output as string for Reflection or anyother purposes and you end up with lot of string lines and messy code. This library will provide you fluent api to design the class and out as string.
 
+# Future Changes
+1. Compile Class
+2. Execute Methods
+3. Generate Dll on Runtime.
+
 # Usages
 
             var cb = new ClassBuilder();
